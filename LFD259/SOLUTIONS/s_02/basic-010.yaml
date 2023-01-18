@@ -11,4 +11,4 @@ spec:
     ports:
     - containerPort: 80
   - name: fdlogger
-    image: registry.k8s.io/fluentd-gcp:1.30
+    image: fluent/fluentd
